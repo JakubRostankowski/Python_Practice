@@ -1,5 +1,4 @@
-loop = 1
-while loop == 1:
+while True:
 	n1 = int(raw_input("Show numbers from: "))
 	n2 = int(raw_input("to: "))
 	y = int(raw_input("divisible by: "))
