@@ -1,5 +1,6 @@
 import random
-
+print('Zadaj pytanie:')
+input()
 def getAnswer(answerNumber):
     if answerNumber == 1:
         return 'To pewne'
