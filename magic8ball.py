@@ -19,6 +19,4 @@ def getAnswer(answerNumber):
     elif answerNumber == 8:
         return 'Nie licz na to'
 
-r = random.randint(1,8)
-fortune = getAnswer(r)
-print(fortune)
+print(getAnswer(random.randint(1,8)))
